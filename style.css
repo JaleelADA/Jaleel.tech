@@ -287,6 +287,10 @@ section {
   border-radius: 2rem;
 }
 
+#live-demo-btn:hover {
+    background-color: #1900ff; /* Change this to your desired color */
+  }
+
 .arrow {
   position: absolute;
   right: -5rem;
@@ -379,6 +383,34 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+/* Center the content and position the buttons at the bottom */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    text-align: center;
+  }
+  
+  h4 {
+    margin-bottom: 20px;
+  }
+  
+  h6 {
+    margin-top: 20px;
+    margin-bottom: 20px; /* Add some space above the buttons */
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: auto; /* Push the buttons to the bottom */
+  }
+  
+  #live-demo-btn:hover {
+    background-color: #1900ff; /* Change this to your desired color */
+  }
 
 /* CONTACT */
 
