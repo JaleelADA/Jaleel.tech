@@ -1,5 +1,5 @@
 # Jaleel.tech
-This is the repo for my official website! This is also an updated version my landingpage repo, which was my first website!
+This is the repo for my official [website](https://jaleelada.github.io/Jaleel.tech/)! This is also an updated version my landingpage repo, which was my first website!
 
 ## Table of Contents
 
