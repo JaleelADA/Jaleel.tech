@@ -28,3 +28,7 @@ This is my first portfolio website, created to highlight my work and share my jo
 ## Contact
 
 Feel free to reach out if you have any questions or feedback.
+
+## License
+
+This project is licensed under the MIT License - see [LICENSE](LICENSE) file for more info.
