@@ -416,14 +416,14 @@ article .icon {
 
 #contact {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   flex-direction: column;
   height: 70vh;
 }
 
 .contact-info-upper-container {
   display: flex;
-  justify-content: center;
+  justify-content: c;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -460,5 +460,5 @@ footer {
 }
 
 footer p {
-  text-align:center;
+  text-align: center;
 }

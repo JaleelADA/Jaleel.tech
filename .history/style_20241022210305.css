@@ -416,7 +416,7 @@ article .icon {
 
 #contact {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   flex-direction: column;
   height: 70vh;
 }
@@ -460,5 +460,5 @@ footer {
 }
 
 footer p {
-  text-align:center;
+  text-align: center;
 }

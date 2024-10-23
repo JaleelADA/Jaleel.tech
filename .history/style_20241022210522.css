@@ -434,7 +434,7 @@ article .icon {
 
 .contact-info-container {
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem;
@@ -460,5 +460,5 @@ footer {
 }
 
 footer p {
-  text-align:center;
+  text-align:right;
 }
