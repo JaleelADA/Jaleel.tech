@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Jaleel Drones</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Jaleel Drones-Akins</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="projects" class="carousel slide" data-ride="carousel">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="carousel-inner">
+        <!-- Project 1: CHI-COVID -->
+        <div class="carousel-item active">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">CHI-COVID</h2>
+            <h4 style="margin-bottom: 20px;">
+              This project analyzes and visualizes COVID-19 cases, tests, and deaths by ZIP code in Chicago, focusing on data from Q4 2023. The goal is to examine the relationship between COVID-19 impact and population density.
+            </h4>
+            <h6 style="margin-top: 20px;">
+              Python, GeoPandas, Pandas, NumPy, Kepler.gl, Jupyter Notebook
+            </h6>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/JaleelADA/CHI-COVID'">
+                Github
+              </button>
+              <button onmouseover="this.textContent='Coming Soon';" onmouseleave="this.textContent='Live Demo';" class="btn btn-color-2 project-btn">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Item Tracker -->
+        <div class="carousel-item">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Item Tracker</h2>
+            <h4 style="margin-bottom: 20px;">
+              This project is a simple item tracker that allows users to add, delete, and update items.
+            </h4>
+            <h6 style="margin-top: 20px;">
+              React, NodeJS, JavaScript, HTML, CSS, Firebase, MUI
+            </h6>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/JaleelADA/Item-Tracker'">
+                Github
+              </button>
+              <button id="live-demo-btn" class="btn btn-color-2 project-btn" onclick="location.href='https://youtu.be/cpmr_m_Bdd0'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Remora Fishing Traceability -->
+        <div class="carousel-item">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Remora Fishing Traceability</h2>
+            <h4 class="project-description">
+              Computer Vision Enhancement project aimed at creating a completely computer vision process for categorizing, weighing, and measuring fish at landing centers.
+            </h4>
+            <h6 class="project-tech">
+              Python, Pytorch, Google Cloud Platform (GCP), Docker, Git
+            </h6>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onmouseover="this.textContent='Coming Soon';" onmouseleave="this.textContent='Github';">
+                Github
+              </button>
+              <button id="live-demo-btn" class="btn btn-color-2 project-btn" onclick="location.href='https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://datascience.uchicago.edu/people/jaleel-drones-akins/&ved=2ahUKEwj1hoTemK6HAxWDk4kEHZaVD30QFnoECBEQAQ&usg=AOvVaw3ftzwG07NASGVkEC8WD_q2'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: VibeStream -->
+        <div class="carousel-item">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-4.webp" alt="Project 4" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">VibeStream</h2>
+            <h4 class="project-description">
+              VibeStream is a Django application that interacts with the Spotify API to display featured playlists, new releases, and search results for artists, albums, and playlists.
+            </h4>
+            <h6 class="project-tech">
+              Django, Python, HTML, CSS, Spotify API
+            </h6>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/JaleelADA/VibeStream'">
+                Github
+              </button>
+              <button onmouseover="this.textContent='Coming Soon';" onmouseleave="this.textContent='Live Demo';" class="btn btn-color-2 project-btn">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel controls -->
+      <a class="carousel-control-prev" href="#projects" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#projects" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </section>
+  </body>
+</html>

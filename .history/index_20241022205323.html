@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+      <!-- Other meta tags -->
+      <meta property="og:title" content="Jaleel Drones" />
+      <meta property="og:description" content="My Personal Portfolio." />
+      <meta property="og:image" content="./assets/preview.png" />
+      <meta property="og:url" content="https://jaleelada.github.io/Jaleel.tech/" />
+      <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Jaleel Drones</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Jaleel Drones-Akins</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Jaleel profile picture"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Jaleel Drones</h1>
+        <p class="section__text__p2">a Student Developer</p>
+        <div class="btn-container">
+            <button
+            class="btn btn-color-2"
+            onclick="location.href='assets/Jaleel_Drones-Resume.pdf';">
+            Resume
+          </button>
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/jaleelda1'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/JaleelADA'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Data Analysis <br />Frontend-Development <br> Data Science </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.A. in Computer Science <br>University of Michigan<br> 2023 - 2027</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi, I’m Jaleel! I’m a computer science student with a passion for building tech solutions that make a real-world difference. Whether it's designing AI models to help with marine conservation or developing sleek, user-friendly web applications, I love taking on challenges and seeing projects come to life. 
+              I’ve had the opportunity to work with some amazing teams, learning from industry professionals and collaborating on everything from data science projects to software development. 
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                    <h3>Node JS</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+           
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Science</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C / C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">CHI-COVID</h2>
+            <h4 style="margin-bottom: 20px;"> This project analyzes and visualizes COVID-19 cases, tests, and deaths by ZIP code in Chicago, focusing on data from Q4 2023. 
+                The goal is to examine the relationship between COVID-19 impact and population density. </h4>
+            
+                <h6 style="margin-top: 20px;">Python,
+                    GeoPandas,
+                    Pandas,
+                    NumPy,
+                    Kepler.gl,
+                    Jupyter Notebook</h6>
+
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/JaleelADA/CHI-COVID'"
+              >
+                Github
+              </button>
+              <button
+              onmouseover="this.textContent='Coming Soon';"
+              onmouseleave="this.textContent='Live Demo';"
+              class="btn btn-color-2 project-btn"
+    
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Item Tracker</h2>
+            <h4 style="margin-bottom: 20px;">This project is a simple item tracker that allows users to add, delete, and update items. 
+                 </h4>
+            
+                <h6 style="margin-top: 20px;">React,
+                    NodeJS,
+                    JavaScript,
+                    HTML,
+                    CSS,
+                    Firebase,
+                    MUI
+                </h6>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/JaleelADA/Item-Tracker'"
+              >
+                Github
+              </button>
+              <button
+                id="live-demo-btn"
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://youtu.be/cpmr_m_Bdd0'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Remora Fishing Traceability</h2>
+            <h4 style="margin-bottom: 20px;"> Computer Vision Enhancement project. Aimed at creating a completely computer vision process 
+                for catergorizing, weighing, and measuring fish at landing centers.
+                </h4>
+            
+                <h6 style="margin-top: 20px;">Python,
+                    Pytorch,
+                    Google Cloud Platform(GCP),
+                    Docker,
+                    Git
+
+                </h6>
+                <div class="btn-container">
+             <button
+                 class="btn btn-color-2 project-btn"
+                      onmouseover="this.textContent='Coming Soon';"
+                       onmouseleave="this.textContent='Github';"
+          >
+                    Github
+             </button>
+            
+              <button
+                id="live-demo-btn"
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://datascience.uchicago.edu/people/jaleel-drones-akins/&ved=2ahUKEwj1hoTemK6HAxWDk4kEHZaVD30QFnoECBEQAQ&usg=AOvVaw3ftzwG07NASGVkEC8WD_q2'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/project-4.webp" alt="Project 4" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">VibeStream</h2>
+        <h4 style="margin-bottom: 20px;">
+          VibeStream is a Django application that interacts with the Spotify API to display featured playlists, new releases, and search results for artists, albums, and playlists.
+        </h4>
+        <h6 style="margin-top: 20px;">
+          Django, Python, HTML, CSS, Spotify API
+        </h6>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/JaleelADA/VibeStream'"
+          >
+            Github
+          </button>
+          <button
+            onmouseover="this.textContent='Coming Soon';"
+            onmouseleave="this.textContent='Live Demo';"
+            class="btn btn-color-2 project-btn"
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:jaleeldrones1@gmail.com">jaleeldrones1@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/jaleelda1">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Jaleel Drones-Akins. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
